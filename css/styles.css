@@ -290,7 +290,15 @@ footer{
     color: var(--normalColor);
     text-align: center;
 }
+.about-head{
+    color: var(--normalColor);
+    text-align: center;
+}
 
+.about-head::first-letter{
+    color: var(--redColor);
+    text-decoration: underline;
+}
 .contact-heading::first-letter{
     color: var(--redColor);
     text-decoration: underline;
@@ -537,6 +545,10 @@ footer{
         height: 30px;
         margin-top: 15.3px;
         width: 20px;
+    }
+    .about-head{
+        color: var(--normalColor);
+        text-align: center;
     }
     .remove-btn{
         color: var(--normalColor);
