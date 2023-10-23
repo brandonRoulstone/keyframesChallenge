@@ -105,6 +105,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: var(--cardColor2);
+    box-shadow: 5px 5px 15px 0px var(--favColor);
     margin: 10px;
 }
 
@@ -168,6 +169,7 @@ body{
     background-color: var(--cardColor);
     margin: 30px;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px var(--favColor);
 }
 
 .product-pg-heading{
